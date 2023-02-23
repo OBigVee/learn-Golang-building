@@ -1,1 +1,1 @@
-# Learn Golang building a few projects
+# 🧑‍💻 Learn Golang building 👷🔧  a few projects

@@ -31,6 +31,7 @@ func helloHandler(w http.ResponseWriter, req *http.Request){
 
 func main() {
 	var fileserver = http.FileServer(http.Dir("./static"))
+//	fmt.Fprintf(fileserver,"\n")
 	http.Handle("/",fileserver)
 	http.HandleFunc("/form",formHandler)
 	http.HandleFunc("/hello",helloHandler)

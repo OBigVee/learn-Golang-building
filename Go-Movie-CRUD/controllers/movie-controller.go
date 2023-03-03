@@ -1,14 +1,15 @@
 package controllers
+
 import (
-"net/http"
-"strconv"
-"encoding/json"
-"math/rand"
-"Go-Movie-CRUD/models"
-"github.com/gorilla/mux"
+	"Go-Movie-CRUD/models"
+	"encoding/json"
+	"github.com/gorilla/mux"
+	"math/rand"
+	"net/http"
+	"strconv"
 )
 
-var movies [] models.Movie
+var movies []models.Movie
 
 func GetMovies(w http.ResponseWriter, req *http.Request) {
 	w.Header().Set("Content-Type", "application/json")

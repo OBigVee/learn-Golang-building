@@ -1,31 +1,15 @@
 package main
 
 import (
-	"fmt"
-	"log"
-	"net/http"
 	"Go-Movie-CRUD/controllers"
 	"Go-Movie-CRUD/models"
-
-	
+	"fmt"
 	"github.com/gorilla/mux"
+	"log"
+	"net/http"
 )
 
-// type Director struct {
-// 	Firstname string `json:"firstname"`
-// 	Lastname  string `json:"lastname"`
-// }
-
-// type Movie struct {
-// 	ID       string    `json:"id"`
-// 	Isbn     string    `json:"isbn"`
-// 	Title    string    `json:"title"`
-// 	Director *Director `json:"director"` // embed Director struct
-// }
-
 var movies []models.Movie
-
-
 
 func main() {
 	r := mux.NewRouter()

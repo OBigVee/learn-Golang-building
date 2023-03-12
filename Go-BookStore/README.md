@@ -12,7 +12,7 @@ you'll need to add it in front of that import in the case of side-effect imports
 and [this](https://v1.gorm.io/docs/connecting_to_the_database.html#MySQL)
 
 
-## Run the Program 
+## Want to run the program? 
 
 To run the program on your machine, you need to:
 * fork and clone the repo ().Then you need to install any API development tool POST MAN, Rapid Api etc ...

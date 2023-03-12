@@ -1,4 +1,4 @@
-# A Golang BookStore management system
+# A Golang BookStore CRUD  management system
 
 
 ### lessons learnt
